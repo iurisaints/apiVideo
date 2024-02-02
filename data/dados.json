@@ -1,0 +1,24 @@
+{
+    "Usuarios": [
+      {
+        "id": 1,
+        "nome": "teste",
+        "idade": 18,
+        "curso": "teste"
+      },
+      {
+        "id": 2,
+        "nome": "prof. iuri",
+        "idade": 17,
+        "curso": "backend"
+      }
+    ],
+    "Cursos": [
+      {
+        "nome_curso": "dev de sistemas"
+      },
+      {
+        "nome_curso": "backend"
+      }
+    ]
+  }
