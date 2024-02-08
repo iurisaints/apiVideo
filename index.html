@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Frontend da api </title>
+</head>
+<body>
+    <h1> Usuários </h1>
+    
+    <!-- Formulário para adicionar usuário -->
+    <form id="user-form">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" required>
+        
+        <label for="age">Idade:</label>
+        <input type="number" id="age" required>
+        
+        <label for="course">Curso:</label>
+        <input type="text" id="course" required>
+    
+        <button type="submit">Adicionar Usuário</button>
+    </form>
+
+    <h1> Lista de Users </h1>
+    <ul id="user-list"></ul>
+    
+    <script src="script.js"></script>
+</body>
+</html>

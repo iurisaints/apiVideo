@@ -1,8 +1,10 @@
 const dados = require('./data/dados.json')
 const express = require('express')
 const fs = require('fs')
+const cors = require('cors')
 
 const server = express()
+server.use(cors())
 server.use(express.json())
 
 server.listen(3000, () => {

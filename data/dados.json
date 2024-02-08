@@ -1,24 +1,34 @@
 {
-    "Usuarios": [
-      {
-        "id": 1,
-        "nome": "teste",
-        "idade": 18,
-        "curso": "teste"
-      },
-      {
-        "id": 2,
-        "nome": "prof. iuri",
-        "idade": 17,
-        "curso": "backend"
-      }
-    ],
-    "Cursos": [
-      {
-        "nome_curso": "dev de sistemas"
-      },
-      {
-        "nome_curso": "backend"
-      }
-    ]
-  }
+  "Usuarios": [
+    {
+      "id": 1,
+      "nome": "teste",
+      "idade": 18,
+      "curso": "teste"
+    },
+    {
+      "id": 2,
+      "nome": "prof. iuri",
+      "idade": 17,
+      "curso": "backend"
+    },
+    {
+      "nome": "teste",
+      "idade": "90",
+      "curso": "teste"
+    },
+    {
+      "nome": "alo teste",
+      "idade": "80",
+      "curso": "asdfasrfe"
+    }
+  ],
+  "Cursos": [
+    {
+      "nome_curso": "dev de sistemas"
+    },
+    {
+      "nome_curso": "backend"
+    }
+  ]
+}
